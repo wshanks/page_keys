@@ -1,0 +1,3 @@
+[submodule "addon/libs/mousetrap"]
+	path = addon/libs/mousetrap
+	url = https://github.com/ccampbell/mousetrap

@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+  "name": "Page keys",
+  "version": "1.0",
+  "description": "Add keyboard shortcuts to web page",
+  "icons": {
+    "48": "icons/ic_keyboard_black_24dp_2x.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "page_keys@mozilla.org",
+      "strict_min_version": "45.0"
+    }
+  },
+
+  "background": {
+      "scripts": ["background.js"]
+  },
+  "options_ui": {
+    "page": "options/options.html"
+  },
+  "permissions": ["tabs", "activeTab", "<all_urls>", "storage"]
+}
